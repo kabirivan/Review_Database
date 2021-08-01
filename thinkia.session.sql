@@ -8,7 +8,7 @@
 
 -- SELECT nombre_organizacion FROM iniciativa_actor WHERE nombre_organizacion LIKE '%AgroScan%'; 
 
-SELECT iniciativas.id, iniciativa_informacion.nombre_iniciativa, iniciativa_actor.nombre_organizacion
+SELECT iniciativas.id AS iniciativa_id, iniciativa_actor.id as organizacion_id, iniciativa_informacion.nombre_iniciativa, iniciativa_actor.nombre_organizacion
 FROM iniciativa_actor
 INNER JOIN iniciativas 
 ON iniciativa_actor.id = iniciativas.iniciativa_actor_id
