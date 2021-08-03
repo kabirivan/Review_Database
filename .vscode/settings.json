@@ -6,8 +6,8 @@
             "port": 5432,
             "askForPassword": true,
             "driver": "PostgreSQL",
-            "name": "thinkia",
-            "database": "test",
+            "name": "connect",
+            "database": "thinkia_updated",
             "username": "postgres"
         }
     ]
