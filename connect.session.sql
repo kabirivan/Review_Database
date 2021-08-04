@@ -40,8 +40,12 @@
 -- FROM iniciativas 
 -- WHERE iniciativa_actor_id IN (46, 69, 42, 340, 270, 147, 296, 100, 269, 38, 63, 32, 115, 228, 39, 177, 51, 188, 103, 224, 195, 106, 273, 212, 164, 191, 300, 255, 59, 238, 206, 93, 246, 331, 250, 336, 320, 277, 49, 200, 86, 258)
 
+-- Segunda Eliminacion
+-- SELECT id, iniciativa_actor_id 
+-- FROM iniciativas 
+-- WHERE iniciativa_actor_id IN (274, 213, 165, 189, 309, 256, 116, 239, 207, 94, 249, 332, 251, 338, 317, 323, 180, 201, 85, 260)
+
 SELECT id, iniciativa_actor_id 
 FROM iniciativas 
-WHERE iniciativa_actor_id IN (2)
-
+WHERE iniciativa_actor_id IN (324, 329, 333, 202, 84, 261)
 
