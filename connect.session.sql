@@ -50,8 +50,12 @@
 -- FROM iniciativas 
 -- WHERE iniciativa_actor_id IN (324, 329, 333, 202, 84, 261)
 
+-- Cuarta Eliminacion
+-- SELECT id, iniciativa_actor_id 
+-- FROM iniciativas 
+-- WHERE iniciativa_actor_id IN (334, 203, 82, 262)
 
-SELECT id, iniciativa_actor_id 
-FROM iniciativas 
-WHERE iniciativa_actor_id IN (334, 203, 82, 262)
 
+SELECT id, nombre_organizacion
+FROM iniciativa_actor
+ORDER BY nombre_organizacion DESC
