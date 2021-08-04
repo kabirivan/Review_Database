@@ -56,6 +56,12 @@
 -- WHERE iniciativa_actor_id IN (334, 203, 82, 262)
 
 
-SELECT id, nombre_organizacion
-FROM iniciativa_actor
-ORDER BY nombre_organizacion DESC
+-- SELECT id, nombre_organizacion
+-- FROM iniciativa_actor
+-- ORDER BY nombre_organizacion DESC
+
+
+-- Quinta Eliminacion
+SELECT id, iniciativa_actor_id 
+FROM iniciativas 
+WHERE iniciativa_actor_id IN (126, 87, 47, 114, 288, 25, 337 , 283, 95, 266, 13, 14)
