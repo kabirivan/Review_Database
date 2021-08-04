@@ -45,7 +45,13 @@
 -- FROM iniciativas 
 -- WHERE iniciativa_actor_id IN (274, 213, 165, 189, 309, 256, 116, 239, 207, 94, 249, 332, 251, 338, 317, 323, 180, 201, 85, 260)
 
+--Tercera Eliminacion
+-- SELECT id, iniciativa_actor_id 
+-- FROM iniciativas 
+-- WHERE iniciativa_actor_id IN (324, 329, 333, 202, 84, 261)
+
+
 SELECT id, iniciativa_actor_id 
 FROM iniciativas 
-WHERE iniciativa_actor_id IN (324, 329, 333, 202, 84, 261)
+WHERE iniciativa_actor_id IN (334, 203, 82, 262)
 
