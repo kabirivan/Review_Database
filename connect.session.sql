@@ -73,8 +73,9 @@
 -- SELECT id, nombre_iniciativa, componente_innovador, descripcion_iniciativa FROM iniciativa_informacion
 -- ORDER BY nombre_iniciativa ASC 
 
--- Quinta Eliminacion
-SELECT id, nombre_organizacion
-FROM iniciativa_actor
-WHERE id IN (362, 101, 70, 117, 50, 104, 90, 369, 148, 57, 300)
 
+SELECT componente_innovador, COUNT(id)
+FROM iniciativa_informacion
+GROUP BY componente_innovador
+HAVING COUNT(id) > 1 
+ORDER BY COUNT(id); 
