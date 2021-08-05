@@ -62,6 +62,13 @@
 
 
 -- Quinta Eliminacion
-SELECT id, iniciativa_actor_id 
-FROM iniciativas 
-WHERE iniciativa_actor_id IN (126, 87, 47, 114, 288, 25, 337 , 283, 95, 266, 13, 14)
+-- SELECT id, iniciativa_actor_id 
+-- FROM iniciativas 
+-- WHERE iniciativa_actor_id IN (126, 87, 47, 114, 288, 25, 337 , 283, 95, 266, 13, 14)
+
+
+
+--
+
+SELECT id, 
+INNER JOIN iniciativa_actor ON iniciativa_actor.id = SUBQUERY.iniciativa_actor_id
