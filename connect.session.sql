@@ -70,5 +70,11 @@
 
 --
 
-SELECT id, 
-INNER JOIN iniciativa_actor ON iniciativa_actor.id = SUBQUERY.iniciativa_actor_id
+-- SELECT id, nombre_iniciativa, componente_innovador, descripcion_iniciativa FROM iniciativa_informacion
+-- ORDER BY nombre_iniciativa ASC 
+
+-- Quinta Eliminacion
+SELECT id, nombre_organizacion
+FROM iniciativa_actor
+WHERE id IN (362, 101, 70, 117, 50, 104, 90, 369, 148, 57, 300)
+
